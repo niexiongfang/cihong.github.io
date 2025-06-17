@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<meta name="description" content="磁弘科技 (东莞) 有限公司的应用领域，涵盖新能源、工业等领域的解决方案。" />
+<meta name="keywords" content="磁弘科技, 磁性元件, 新能源, 工业应用" />
+<html lang="zh-CN" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>应用领域 - 磁弘科技</title>
+    <link rel="stylesheet" href="css/styles.css">
+<style>
+        .direction {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .description {
+            flex: 1;
+            max-width: 20%;
+            padding-right: 20px;
+        }
+        .images {
+            flex: 4;
+            display: flex;
+            gap: 10px;
+        }
+        .images img {
+            max-width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="language-switcher">
+            <button id="zh-btn" onclick="window.location.href='../index.html'">简体中文</button>
+            <button id="en-btn" onclick="window.location.href='../en/index.html'">English</button>
+        </div>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="products.html">产品中心</a></li>
+            <li><a href="application.html" class="active">应用领域</a></li>
+            <li><a href="news.html">新闻资讯</a></li>
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <!-- 解决方案 -->
+    <section id="solutions">
+        <h2 data-lang-key="solutions-h2">解决方案</h2>
+        <!-- 第一部分：关联十大行业 -->       
+        <h3>关联十大行业</h3>
+        <img src="images/10_industries.jpg" alt="关联十大行业占位图">
+        <!-- 第二部分：专注四大方向 -->
+        <h3>专注四大方向</h3>
+        <!-- 不间断电源 -->
+        <div class="direction">
+            <div class="description">
+                <h4>不间断电源</h4>
+                <p></p>
+            </div>
+            <div class="images">
+                <img src="images/ups1.jpg" alt="不间断电源占位图">
+                <img src="images/ups2.jpg" alt="不间断电源占位图">
+            </div>
+        </div>
+        <!-- 新能源汽车 -->
+        <div class="direction">
+            <div class="description">
+                <h4>新能源汽车</h4>
+                <p></p>
+            </div>
+            <div class="images">
+                <img src="images/new_energy1.jpg" alt="新能源汽车占位图">
+                <img src="images/new_energy2.jpg" alt="新能源汽车占位图">
+            </div>
+        </div>
+        <!-- 太阳能光伏发电 -->
+        <div class="direction">
+            <div class="description">
+                <h4>太阳能光伏发电</h4>
+                <p></p>
+            </div>
+            <div class="images">
+                <img src="images/solar_photovoltaic_power_generation1.jpg" alt="太阳能光伏发电占位图">
+                <img src="images/solar_photovoltaic_power_generation2.jpg" alt="太阳能光伏发电占位图">
+            </div>
+        </div>
+        <!-- 电能质量及储能 -->
+        <div class="direction">
+            <div class="description">
+                <h4>电能质量及储能</h4>
+                <p></p>
+            </div>
+            <div class="images">
+                <img src="images/energy_storage1.jpg" alt="电能质量及储能占位图">
+                <img src="images/energy_storage2.jpg" alt="电能质量及储能占位图">
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
